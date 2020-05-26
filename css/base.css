@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* #region css初始化 start */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft yahei", "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% "Microsoft yahei", Arial, Verdana, "\5b8b\4f53";
+    color: #000;
+    background: #fff
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #22aaff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+
+.w {
+    width: 1064px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/* #endregion css初始化 end */
+
+/* #region 头部导航栏 start */
+.top-nav {
+    margin-bottom: 10px;  
+    border-bottom: 1px solid #e0e0e0;
+}
+.top-nav .w{
+    height: 60px;
+}
+.top-nav .logo {
+    float: left;
+    width: 300px;
+    height: 60px;
+    padding: 0;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -999em;
+}
+.top-nav .logo:hover {
+    background-color: #fff;
+}
+.top-nav li {
+    float: left;
+}
+.top-nav a {
+    display: block;
+    padding: 0 26px;
+    font: 18px/60px "Microsoft yahei";
+    color: #000;
+}
+.top-nav a:hover,
+.top-nav a.current {
+    color: #fff;
+    background-color: #22aaff;
+}
+/* #endregion 头部导航栏 end */
+
+/* #region 网站底部*/
+.footer {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px #888;    
+}
+.footer .link {
+    padding-left: 20px;    
+    line-height: 24px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.footer li {
+    float: left;
+}
+.footer a {
+    display: block;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+/* #endregion 网站底部*/
+
+/* 底部版权 */
+.copyright {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+/* 底部版权 */

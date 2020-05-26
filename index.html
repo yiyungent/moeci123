@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>World Mode|萌次导航</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- #region 顶部导航-->
+    <div class="top-nav">
+        <div class="w">
+            <a class="logo" href="#">
+                <h1>萌次导航</h1>
+            </a>
+            <ul>
+                <li><a class="current" href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- #endregion 顶部导航 -->
+    
+    <!-- #region 幻灯片栏 start-->
+    <div class="hot-banner w clearfix">
+        <!-- #region 左侧幻灯片和列表 start-->
+        <div class="hot-l fl">
+            <div class="hot-img fl">
+                <a href="#" target="_blank">
+                    <img id="slideImg" src="images/hot-img_1.jpg" alt="">
+                </a>
+                <!--  #region 幻灯片小部件 start -->
+                <span class="banner-circle" id="js_banner_circle">
+                    <ul>
+                        <li id="slideBtn1" class="current" ></li>
+                        <li id="slideBtn2" ></li>
+                        <li id="slideBtn3"></li>
+                        <li id="slideBtn4" ></li>
+                        <li id="slideBtn5" ></li>
+                        <li id="slideBtn6" ></li>
+                        <li id="slideBtn7" ></li>
+                    </ul>
+                </span>
+                <span class="slide-title">
+                    <a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a>
+                </span>
+                <!--  #endregion 幻灯片小部件 end -->                
+            </div>
+            <div class="hot-list fl">
+                <ol>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                    <li><a class="last" href="#" target="_blank">无彩限的怪灵世界 动画全集下载（720P）</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- #endregion 左侧幻灯片和列表 end-->        
+        <!-- #region 右侧 start-->
+        <div class="hot-r fr"></div>
+        <!-- #endregion 右侧 end-->
+    </div>
+    <!-- #endregion 幻灯片栏 end -->
+    
+    <!-- #region 页面主体-->
+    <div class="main w">
+        <!-- #region 评论框-->
+            <div id="js_commentArea">
+                <h3>原标题</h3>
+                <div id="SOHUCS" sid=""></div>
+                <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+                <script type="text/javascript">
+                window.changyan.api.config({
+                appid: 'cyt9ckQI6',
+                conf: 'prod_7bdc42cb269872b7fe940c39fb73ebd4'
+                });
+                </script>
+                <span onclick="comBtnClose()" class="comBtnClose">✘</span>
+            </div>
+        <!-- #endregion 评论框-->
+        <!-- #region 单个导航栏目 -->
+        <div class="channel">
+            <div class="cat">
+                <h3>社区论坛</h3>
+            </div>
+            <div class="content clearfix">
+                <ul>
+                    <li>
+                        <div class="item">
+                            <a href="http://bbs.cskin.net/" target="_blank"><i class="title">C#论坛</i><i class="desc">C#源码控件</i></a>
+                        </div>
+                        <div class="func">
+                            <a href="javascript:comBtnOpen('1','C#论坛');" class="inf"><i class="fa fa-comments-o"></i>评论</a>
+                            <a href="javascript:;" class="hot"><i class="fa fa-heart-o"></i>1234</a>
+                        </div>
+                    </li>
+					<li>
+						<div class="item">
+							<a href="http://d.cskin.net/" target="_blank"><i class="title">DSkin</i><i class="desc">自定义的.NET皮肤界面库</i></a>
+						</div>
+						<div class="func">
+							<a href="javascript:comBtnOpen('2','Dskin');" class="inf"><i class="fa fa-comments-o"></i>评论</a>
+							<a href="javascript:;" class="hot"><i class="fa fa-heart-o"></i>1234</a>
+						</div>
+					</li>
+					<li>
+							<div class="item">
+								<a href="http://www.cskin.net/" target="_blank"><i class="title">CSkin</i><i class="desc">免费C# NET界面库</i></a>
+							</div>
+							<div class="func">
+								<a href="javascript:comBtnOpen('3','CSkin');" class="inf"><i class="fa fa-comments-o"></i>评论</a>
+								<a href="javascript:;" class="hot"><i class="fa fa-heart-o"></i>1234</a>
+							</div>
+					</li>
+                </ul>
+            </div>
+        </div>
+        <!-- #endregion 单个导航栏目 -->  
+    </div>
+    <!-- #endregion 页面主体 -->
+
+    <!-- #region 网站底部-->
+    <div class="footer w clearfix">
+        <div class="link">友情链接</div>
+        <ul>
+            <li><a href="#">萌次网</a></li>
+            <li><a href="#">萌次网</a></li>
+            <li><a href="#">萌次网</a></li>
+            <li><a href="#">萌次网</a></li>
+            <li><a href="#">萌次网</a></li>
+        </ul>
+    </div>
+    <div class="copyright w">
+            <p>Copyright © 2018 Moeci. 萌次 版权所有</p>
+            <p> 渝ICP备16001348号-1</p>
+    </div>
+    <!-- #endregion 网站底部-->
+
+</body>
+</html>
